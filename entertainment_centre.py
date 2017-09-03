@@ -5,7 +5,7 @@ import fresh_tomatoes
 #Initialising List to store movie data
 movies=[]
 
-#Opening CSV file containing movie data 
+#Opening CSV file containing movie data
 with open('80s_Movies.csv') as moviescsv:
     readCSV = csv.reader(moviescsv, delimiter=',')
     for row in readCSV:
