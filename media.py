@@ -10,6 +10,7 @@ class Movie():
     
     #Assigning Instance Attributes 
     def __init__(self, title, trailer):
+        self.__name__ = title
         self.title = title
         self.trailer = trailer
         self.alldata = self.get_info
