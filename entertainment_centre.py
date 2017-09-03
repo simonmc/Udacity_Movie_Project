@@ -19,7 +19,3 @@ with open('80s_Movies.csv') as moviescsv:
 
 #Renders and opens web page
 fresh_tomatoes.open_movies_page(movies)
-
-
-
-
