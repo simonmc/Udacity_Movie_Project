@@ -4,9 +4,9 @@ import fresh_tomatoes
 
 #Initialising List to store movie data
 Movies = []
-
+inputfile = '80s_Movies.csv'
 #Opening CSV file containing movie data
-with open('80s_Movies.csv') as moviescsv:
+with open(inputfile) as moviescsv:
     readCSV = csv.reader(moviescsv, delimiter=',')
     for row in readCSV:
         movie_title = row[0]
