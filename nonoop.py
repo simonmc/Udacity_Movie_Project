@@ -1,3 +1,5 @@
+#used this to get the API request working before I did the Class Def
+#This won't be in the finalised project 
 import requests
 import json
 
